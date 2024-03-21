@@ -1,0 +1,14 @@
+.match {
+  display: flex;
+
+  :global {
+    .select {
+      width: 180px;
+      margin-right: 12px;
+    }
+    .input {
+      width: 210px;
+      margin-right: 12px;
+    }
+  }
+}

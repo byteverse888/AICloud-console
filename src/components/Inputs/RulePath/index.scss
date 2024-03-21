@@ -1,0 +1,19 @@
+@import '~scss/variables';
+
+.input {
+  :global {
+    .dropdown .menu {
+      width: 180px;
+    }
+  }
+}
+
+.autocomplete {
+  width: 100% !important;
+
+  :global {
+    .popper {
+      z-index: 1000;
+    }
+  }
+}
